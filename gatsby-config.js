@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: "DevJamstack | Portfólio & Artigos Técnicos",
     description: "Projeto desenvolvido na disciplina Front-end Jamstack com Gatsby - Pós Infnet.",
-    siteUrl: "https://seu-projeto.netlify.app", // Atualize após o deploy na CDN
+    siteUrl: "https://jamstack-rafael.netlify.app/",
     image: "/banner-home.jpg",
   },
   plugins: [
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://seu-projeto.netlify.app",
-        sitemap: "https://seu-projeto.netlify.app/sitemap-index.xml",
+        host: "https://jamstack-rafael.netlify.app/",
+        sitemap: "https://jamstack-rafael.netlify.app/sitemap-index.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
